@@ -26,7 +26,7 @@ CREATE TABLE tbl_alunos (
     fk_cursos_id INT NOT NULL,
     FOREIGN KEY (fk_cursos_id) REFERENCES tbl_cursos(id)
 );
-
+ -- Tabela Telefone
 CREATE TABLE tbl_telefone (
     id INT AUTO_INCREMENT PRIMARY KEY,
     fk_professores_id INT,
